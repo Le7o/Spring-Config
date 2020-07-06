@@ -2,6 +2,7 @@ package guru.springframework.sfgdi;
 
 import guru.springframework.sfgdi.controllers.*;
 import guru.springframework.sfgdi.exemplebeans.FakeDataSource;
+import guru.springframework.sfgdi.exemplebeans.FakeJmsBroker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -45,6 +46,11 @@ public class SfgDiApplication {
 		FakeDataSource fakeDataSource = (FakeDataSource)ctx.getBean(FakeDataSource.class);
 		System.out.println(fakeDataSource.getUser());
 		System.out.println(fakeDataSource.getPassword());
+
+		//Test: Multiple Property Files:
+
+		FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
+		System.out.println(fakeJmsBroker.getUser());
 	}
 
 }
