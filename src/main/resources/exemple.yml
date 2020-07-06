@@ -1,0 +1,36 @@
+# this is a comment
+
+name: Thib
+
+names: #Comment
+  - John
+  - Paul
+  - Ringo
+
+pound_sign: "#"
+
+book:
+  author: Joe Buck
+  publisher: random house
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "je lui dit: couou"
+
+include_new_lines: |
+  azertyuiop
+  azertyuiop
+  azertyuio
+
+ignore_new_lines: >
+  zertyuio
+  azertyuio
+  azertyuiop
