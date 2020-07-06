@@ -3,3 +3,9 @@ afcepf:
     username: JMS Username YAML
     password: somepass YAML
     url: someUrl YAML
+---
+spring:
+  profile: en
+afcepf:
+  jms:
+    username: JMS username in English !
