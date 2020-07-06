@@ -1,0 +1,5 @@
+afcepf:
+  jms:
+    username: JMS Username YAML
+    password: somepass YAML
+    url: someUrl YAML
