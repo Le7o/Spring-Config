@@ -15,10 +15,10 @@ import org.springframework.core.env.Environment;
 //V1
 //@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
 //V2 pour MultiplePropertyFiles
-@PropertySources({
+/*@PropertySources({
         @PropertySource("classpath:datasource.properties"),
         @PropertySource("classpath:jms.properties")
-})
+})*/
 public class PropertyConfig {
 
     //Test Env Properties
